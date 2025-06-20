@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:wheather_app/start_screen.dart';
 
-
-void main(){
-    runApp(const WeatherApp());
+void main() {
+  runApp(const WeatherApp());
 }
 
 class WeatherApp extends StatelessWidget {
@@ -12,11 +11,9 @@ class WeatherApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        theme: ThemeData.light(
-          useMaterial3:true
-            ),
-        debugShowCheckedModeBanner: false,
-        home: const StartScreen(),
+      theme: ThemeData.light(useMaterial3: true),
+      debugShowCheckedModeBanner: false,
+      home: const StartScreen(),
     );
   }
 }
